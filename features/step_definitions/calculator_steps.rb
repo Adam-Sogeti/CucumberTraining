@@ -32,6 +32,6 @@ When(/^I have a less than value of (\d+)$/) do |less_than_value|
   @result = @new_calculator.less_than(less_than_value).to_s
 end
 
-When(/^I have a greater than value of (\d+)$/) do |arg1|
-  @result = @new_calculator.greater_than
+When(/^I have a greater than value of (\d+)$/) do |greater_than_value|
+  @result = @new_calculator.greater_than(greater_than_value).to_s
 end

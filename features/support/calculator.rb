@@ -34,4 +34,7 @@ class Calculator
     extract_value(value) < @total
   end
 
+  def greater_than(value)
+    extract_value(value) > @total
+  end
 end
