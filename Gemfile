@@ -1,0 +1,6 @@
+source 'http://rubygems.org'
+gem 'bundler'
+gem 'cucumber', '1.3.10'
+gem 'activerecord'
+gem 'watir-webdriver', '0.6.4'
+gem 'page-object', '0.9.3'

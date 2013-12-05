@@ -1,0 +1,3 @@
+default: --format pretty
+hello: --format html --tags @hello
+testing: --format pretty --tags @functional_test

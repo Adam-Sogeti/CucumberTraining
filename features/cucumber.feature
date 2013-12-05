@@ -1,5 +1,7 @@
+@regression
 Feature: Withdraw Money from an ATM Machine
 
+  @functional_test
   Scenario: Successful withdrawal from an account
     Given I have deposited $80 in my Checking Account
     When I request $20 from an ATM Machine
